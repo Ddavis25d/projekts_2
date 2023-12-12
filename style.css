@@ -1,15 +1,41 @@
-* {
+* { 
     margin: 0;
     box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, Helvetica,
-    sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.virsraksts {
+.virsraksts{
     font-size: 48px;
-    color: #1fdb48
+    color: #00ff15;
     font-weight: bold;
+}
+
+.forma{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputLabel{
+    color: #9D97FF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.inputLauks{
+    height: 60px;
+    border: 2px solid #797979;
 }
